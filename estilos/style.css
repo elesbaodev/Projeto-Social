@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+iframe {
+    position: fixed;
+    border-color: transparent;
+    
+    
+    
+}
+
+
+#tela {
+    height: 738px;
+    width: 267px;
+}
+
+
+
+#home {
+    left: 79%;
+    top: 50%;
+    transform: translate(-79%, -40%);
+    width: 288px;
+    height: 604px;
+}
+
+.icones, section > img {
+    margin-bottom: 10px;
+    text-align: right;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+    box-sizing: border-box;
+}
+
+.icones:hover {
+    transition: transform 0.5s, border 1.2s;
+    border: 2px solid rgba(255, 255, 255, 0.63); 
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+
+}
+
+
+
+#youtube {
+    top: 8%;
+}
+
+/*#telayt {
+    position: absolute;
+    left: 53%;
+    top: 7%;
+    transform: translate(-77%, 30%);
+    width: 367px;
+    height: 478px;
+} */
+#telayt {
+    position: absolute;
+    left: 49%;
+    top: 66%;
+    transform: translate(-76%, 35%);
+    width: 287px;
+    height: 60px;
+}
+
+
+
+#img03 {
+    position: absolute;
+    overflow: hidden;
+    width: 279px;
+    height: 470px;
+    left: 3%;
+    top: 1%;
+
+}
+#img03::-webkit-scrollbar  {
+    display: none;
+}
+
+#github {
+    top: 15%;
+}
+
+#perfil {
+    height: 469px;
+}
+
+/*#channel {
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 237px;
+    background-color: darkred;
+    
+}
+#channel:hover {
+    background-color: red;
+}*/
+#redes {
+    text-align: right;
+}
+#ytt {
+    overflow: hidden;
+}
+#ytt::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+}
