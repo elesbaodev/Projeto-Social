@@ -67,17 +67,19 @@ iframe {
 
 
 
-#img03 {
-    position: absolute;
-    overflow: hidden;
-    width: 279px;
-    height: 470px;
-    left: 3%;
+#img03 {    
+    width: 313px;
+    height: 469px;
+    left: 4%;
     top: 1%;
+    overflow: auto;
 
 }
-#img03::-webkit-scrollbar  {
+#img3::-webkit-scrollbar  {
     display: none;
+    height: 0px;
+    width: 0px;
+    
 }
 
 #github {
@@ -85,7 +87,11 @@ iframe {
 }
 
 #perfil {
+    position: fixed;
+    left: 1%;
+    top: 1%;
     height: 469px;
+    width: 466px;
 }
 
 /*#channel {
