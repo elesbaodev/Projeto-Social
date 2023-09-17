@@ -11,7 +11,7 @@ iframe {
 
 
 #tela {
-    height: 738px;
+    height: 654px;
     width: 267px;
 }
 
@@ -88,7 +88,7 @@ iframe {
 
 #perfil {
     position: fixed;
-    left: 1%;
+    left: 3%;
     top: 1%;
     height: 469px;
     width: 466px;
